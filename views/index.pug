@@ -3,9 +3,13 @@ html
 		title="CCs Journal"
 		link(rel='stylesheet', href="/static/css/main.css")
 	body
+
 		h1  CCs Journal
-		div(id="app")
+
+
+		div(id="post")
 			p(id=Entry) Journal Entry
+
 
 			form(method="POST" action="")
 				div.jEntry
@@ -13,9 +17,12 @@ html
 					input#entry.form-control(type='text', placeholder='What are you feeling?')
 					button.btn.btn-primary(type='submit') Feels
 
+
 		div.allFeels
 				p Feels Container
-				
+
+
+	div(id="app")
 
 
 		script(src="/static/bundle.js", type="text/javascript")

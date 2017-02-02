@@ -1,5 +1,5 @@
 module.exports = {
-	entry: "./public/entryApp.js",
+	entry: "./public/app.js",
 	output: {
 		path: __dirname + "/public",
 		filename: 'bundle.js'
@@ -8,7 +8,7 @@ module.exports = {
 		loader: [
 			{
 				exclude: /(node_modules)/,
-				loader: 'babel', 
+				loader: 'babel-loader', 
 				query: {
 						presets: ['es2015', 'react']
 				}

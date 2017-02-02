@@ -1,1 +1,0 @@
-const feelings = ['sad', 'happy'];

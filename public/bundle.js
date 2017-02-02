@@ -68,7 +68,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-const feelings = ['sad', 'happy'];
+throw new Error("Module parse failed: /Users/user/Desktop/Development/CCJournal/public/app.js Unexpected token (5:2)\nYou may need an appropriate loader to handle this file type.\n| \n| render(\n| \t\t<div>\n| \t\t\t<h1> Testing </h1>\n| \t\t</div>,");
 
 /***/ }
 /******/ ]);
