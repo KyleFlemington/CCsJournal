@@ -1,3 +1,57 @@
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
 h1 {
 	color: red;
+	text-align: center;
+}
+
+#app {
+	border: 1px solid black;
+	width: 50%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jentry {
+	border: 1px solid red;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#entry {
+	width: 80%;
+	height: 50%
+}
+
+.btn.btn-primary {
+	bottom:   0;
+	float: right;
+	width: 100%;
+	background-color: #C0D890;
+	border-radius: 25px;
+	margin-top: 10px;
+}
+
+p {
+	text-align: center;
+}
+
+
+.allFeels {
+	width: 80%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	position: relative;
+	margin-top: 25px;
+
 }
