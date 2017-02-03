@@ -31,3 +31,19 @@
 2017-02-02T17:04:41.563461000 1528.995129s notice: All client connections closed.
 2017-02-02T17:04:41.563475000 1528.995143s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2017-02-02T17:04:41.572683000 1529.004351s notice: Storage engine shut down.
+2017-02-02T17:28:19.250940000 0.018613s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-02-02T17:28:19.258403000 0.026076s notice: Running on Darwin 15.6.0 x86_64
+2017-02-02T17:28:19.258493000 0.026162s notice: Loading data from directory /Users/user/Desktop/Development/CCJournal/rethinkdb_data
+2017-02-02T17:28:19.292712000 0.060381s info: Automatically using cache size of 439 MB
+2017-02-02T17:28:19.294724000 0.062393s notice: Listening for intracluster connections on port 29015
+2017-02-02T17:28:19.318143000 0.085812s notice: Listening for client driver connections on port 28015
+2017-02-02T17:28:19.318258000 0.085927s notice: Listening for administrative HTTP connections on port 8080
+2017-02-02T17:28:19.318333000 0.086002s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-02-02T17:28:19.318337000 0.086006s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-02-02T17:28:19.318339000 0.086008s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-02-02T17:28:19.318341000 0.086010s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-02-02T17:28:19.318344000 0.086012s notice: Server ready, "Users_MacBook_Pro_local_oqg" 537f9949-9dc3-401d-827f-dba57b698774
+2017-02-02T17:28:20.446654000 1.214323s info: Table 649e1ae7-ee8c-4a81-a768-53365f761bdf: Starting a new Raft election for term 2.
+2017-02-02T17:28:20.467127000 1.234796s info: Table 649e1ae7-ee8c-4a81-a768-53365f761bdf: This server is Raft leader for term 2. Latest log index is 2.
+2017-02-02T17:28:21.165215000 1.932848s info: Table f34b00b7-d33e-44c8-82f6-54237f17aa69: Starting a new Raft election for term 2.
+2017-02-02T17:28:21.185247000 1.952880s info: Table f34b00b7-d33e-44c8-82f6-54237f17aa69: This server is Raft leader for term 2. Latest log index is 2.

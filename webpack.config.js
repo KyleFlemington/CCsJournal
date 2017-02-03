@@ -5,10 +5,11 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	module: {
-		loader: [
+		loaders: [
 			{
 				exclude: /(node_modules)/,
-				loader: 'babel', 
+				test   : /\.(js|jsx)$/,
+				loaders: ['babel'],
 				query: {
 						presets: ['es2015', 'react']
 				}
