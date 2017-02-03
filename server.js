@@ -1,10 +1,14 @@
-const express = require('express');
-const app 		= express();
+const express 		= require('express');
+const app 				= express();
+const bodyParser	= require('body-parser');
+const r 					= require('rethinkdb');
 
 app.use('/static', express.static('public'));
+app.use(bodyParser());
 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'pug');
+
 
 
 

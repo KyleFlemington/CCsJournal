@@ -1,0 +1,33 @@
+2017-02-02T16:39:13.584985000 0.010078s notice: Recursively removing directory /Users/user/Desktop/Development/CCJournal/rethinkdb_data/tmp
+2017-02-02T16:39:13.586027000 0.011123s notice: Initializing directory /Users/user/Desktop/Development/CCJournal/rethinkdb_data
+2017-02-02T16:39:13.586094000 0.011187s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/user/Desktop/Development/CCJournal/rethinkdb_data' did not already exist or is empty.)
+2017-02-02T16:39:13.586118000 0.011211s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-02-02T16:39:13.593745000 0.018840s notice: Running on Darwin 15.6.0 x86_64
+2017-02-02T16:39:13.593845000 0.018938s notice: Loading data from directory /Users/user/Desktop/Development/CCJournal/rethinkdb_data
+2017-02-02T16:39:13.758319000 0.183412s info: Automatically using cache size of 100 MB
+2017-02-02T16:39:13.758327000 0.183420s warn: Cache size does not leave much memory for server and query overhead (available memory: 1073 MB).
+2017-02-02T16:39:13.758332000 0.183424s warn: Cache size is very low and may impact performance.
+2017-02-02T16:39:13.759531000 0.184625s notice: Listening for intracluster connections on port 29015
+2017-02-02T16:39:13.760784000 0.185877s notice: Listening for client driver connections on port 28015
+2017-02-02T16:39:13.760886000 0.185978s notice: Listening for administrative HTTP connections on port 8080
+2017-02-02T16:39:13.760888000 0.185980s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-02-02T16:39:13.760893000 0.185985s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-02-02T16:39:13.760894000 0.185987s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-02-02T16:39:13.760897000 0.185990s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-02-02T16:39:13.760901000 0.185993s notice: Server ready, "Users_MacBook_Pro_local_oqg" 537f9949-9dc3-401d-827f-dba57b698774
+2017-02-02T16:46:15.326354000 421.743027s info: Table 3a2af88c-5f0d-48b8-8a76-883fc1a24fda: Starting a new Raft election for term 1.
+2017-02-02T16:46:15.326781000 421.743454s info: Table 3a2af88c-5f0d-48b8-8a76-883fc1a24fda: Added replica on this server.
+2017-02-02T16:46:15.357229000 421.773902s info: Table 3a2af88c-5f0d-48b8-8a76-883fc1a24fda: This server is Raft leader for term 1. Latest log index is 0.
+2017-02-02T16:47:02.425029000 468.840779s notice: Removing file /Users/user/Desktop/Development/CCJournal/rethinkdb_data/3a2af88c-5f0d-48b8-8a76-883fc1a24fda
+2017-02-02T16:47:02.425040000 468.840789s info: Table 3a2af88c-5f0d-48b8-8a76-883fc1a24fda: Deleted the table.
+2017-02-02T16:47:54.811080000 521.225793s info: Table 649e1ae7-ee8c-4a81-a768-53365f761bdf: Starting a new Raft election for term 1.
+2017-02-02T16:47:54.811295000 521.226009s info: Table 649e1ae7-ee8c-4a81-a768-53365f761bdf: Added replica on this server.
+2017-02-02T16:47:54.834303000 521.249017s info: Table 649e1ae7-ee8c-4a81-a768-53365f761bdf: This server is Raft leader for term 1. Latest log index is 0.
+2017-02-02T16:48:04.379591000 530.794112s info: Table f34b00b7-d33e-44c8-82f6-54237f17aa69: Starting a new Raft election for term 1.
+2017-02-02T16:48:04.379910000 530.794432s info: Table f34b00b7-d33e-44c8-82f6-54237f17aa69: Added replica on this server.
+2017-02-02T16:48:04.399230000 530.813751s info: Table f34b00b7-d33e-44c8-82f6-54237f17aa69: This server is Raft leader for term 1. Latest log index is 0.
+2017-02-02T17:04:41.562568000 1528.994236s notice: Server got SIGINT from pid 4670, uid 501; shutting down...
+2017-02-02T17:04:41.563068000 1528.994736s notice: Shutting down client connections...
+2017-02-02T17:04:41.563461000 1528.995129s notice: All client connections closed.
+2017-02-02T17:04:41.563475000 1528.995143s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-02-02T17:04:41.572683000 1529.004351s notice: Storage engine shut down.
