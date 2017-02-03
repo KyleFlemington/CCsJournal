@@ -31,5 +31,8 @@ r.connect( {host: 'localhost', port: 28015}, function(err, conn) {
 
 
 app.post('/', function(req, res) {
-
+	r.db("ccJournals").table("journalText").insert({
+		"journalText": "",
+		"hapinessLevel": ""
+	})
 })
