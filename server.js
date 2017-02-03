@@ -21,3 +21,15 @@ app.get('/', function(req, res){
 	res.render("index")
 });
 
+
+var connection = null;
+r.connect( {host: 'localhost', port: 28015}, function(err, conn) {
+    if (err) throw err;
+    connection = conn;
+})
+
+
+
+app.post('/', function(req, res) {
+
+})
