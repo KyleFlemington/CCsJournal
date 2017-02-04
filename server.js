@@ -4,8 +4,7 @@ const bodyParser	= require('body-parser');
 const r 					= require('rethinkdb');
 
 app.use('/static', express.static('public'));
-app.use(bodyParser());
-
+app.use(bodyParser.urlencoded({ extended: true })); 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'pug');
 
@@ -29,9 +28,6 @@ r.connect( {host: 'localhost', port: 28015}, function(err, conn) {
 })
 
 
-app.post('/index', function(req, res){
-	var obj = {};
-	console.log('body: ' + JSON.stringify(req.body));
-	res.send(req.body);
+app.post('/', function(req, res) {
+  console.log(req.query.name)
 });
-
