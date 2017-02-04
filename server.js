@@ -9,7 +9,10 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'pug');
 
 
-
+const config = require('./config.json');
+const db = Object.assign(config.rethinkdb, {
+    db: 'ccJournals'
+});
 
 app.listen(4500, function(){
 	console.log('listening on port 4500')
@@ -29,5 +32,5 @@ r.connect( {host: 'localhost', port: 28015}, function(err, conn) {
 
 
 app.post('/', function(req, res) {
-  console.log(req.query.name)
+  console.log(res)
 });
